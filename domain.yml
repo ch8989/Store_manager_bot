@@ -1,0 +1,26 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- bot_challenge
+- check_marketing
+- check_promotion
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_marketing_result:
+  - image: https://voucher-demo.skale.today/assets/images/ai/banner-desktop.jpg
+    text: "You can find the marketing result here:\nhttps://xxxx.xxxx.xxxxx"
+  utter_promotion:
+  - image: https://voucher-demo.skale.today/assets/images/mytown/SKALE_logo-02.png
+    text: 'Our on-going promotion can be found at: https://voucher-demo.skale.today'
+  utter_goodbye:
+  - text: Bye
+  - text: Good Bye
+  - text: Have a great day! Bye~
+  utter_iamabot:
+  - text: I am a bot, created by C4AI.
