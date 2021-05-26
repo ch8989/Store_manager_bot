@@ -1,7 +1,6 @@
 language: en
 pipeline:
 - name: MitieNLP
-  model: data/MITIE-models/english/total_word_feature_extractor.dat
 - name: MitieTokenizer
   intent_tokenization_flag: false
   intent_split_symbol: _
