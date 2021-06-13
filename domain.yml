@@ -19,6 +19,8 @@ intents:
     use_entities: true
 - check_promotion:
     use_entities: true
+- check_dashboard:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -38,6 +40,9 @@ responses:
   - text: Have a great day! Bye~
   utter_iamabot:
   - text: I am a bot, created by C4AI.
+  utter_dashboard:
+  - image: http://52.230.121.19:8088/static/assets/images/superset-logo-horiz.png
+    text: For dashboard information, please check below url:http://52.230.121.19:8088/superset/dashboard/12/
 actions: []
 forms: {}
 e2e_actions: []

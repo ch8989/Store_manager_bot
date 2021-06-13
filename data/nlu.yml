@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,7 +15,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: goodbye
   examples: |
     - good afternoon
@@ -30,7 +28,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -39,7 +36,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -49,21 +45,18 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
 - intent: check_marketing
   examples: |
     - How's the marketing result today?
     - What the status of the marketing result?
     - Show me the marketing result.
     - marketing result
-
 - intent: check_promotion
   examples: |
     - What are the promotion we have now?
@@ -71,4 +64,8 @@ nlu:
     - what promotion do we have now?
     - show me the on-going promotion
     - what's the on-going promotion?
-
+- intent: check_dashboard
+  examples: |
+    - I want to check dashboard
+    - dashboard
+    - show me dashboard
