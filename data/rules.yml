@@ -1,12 +1,17 @@
 version: "2.0"
-
 rules:
-
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
-
+- rule: reply marketing dashboard anytime the user ask for marketing dashboard
+  steps:
+  - intent: check_marketing_result
+  - action: utter_marketing_result
+- rule: reply superset dashboard anytime the user says for dashboard
+  steps:
+  - intent: check_dashboard
+  - action: utter_dashboard
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
   - intent: bot_challenge

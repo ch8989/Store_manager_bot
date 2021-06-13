@@ -25,7 +25,7 @@ entities: []
 slots: {}
 responses:
   utter_greet:
-  - text: Hey! How are you?
+  - text: Wecome to C4AI Smart Shelf! What can I help you today?
   utter_marketing_result:
   - image: https://www.skale.today/wp-content/uploads/2021/03/cropped-SKALE-Logo-k-512x512-black.png
     text: |-
@@ -42,7 +42,7 @@ responses:
   - text: I am a bot, created by C4AI.
   utter_dashboard:
   - image: http://52.230.121.19:8088/static/assets/images/superset-logo-horiz.png
-    text: For dashboard information, please check below url:http://52.230.121.19:8088/superset/dashboard/12/
+    text: 'For dashboard information, please check below url: http://52.230.121.19:8088/superset/dashboard/12/'
 actions: []
 forms: {}
 e2e_actions: []

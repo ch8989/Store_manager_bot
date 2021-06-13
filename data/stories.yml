@@ -1,17 +1,20 @@
 version: "2.0"
-
 stories:
-
 - story: marketing path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: check_marketing
   - action: utter_marketing_result
-
 - story: promotion path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: check_promotion
   - action: utter_promotion
+- story: Story from Conversation ID 03d607f7bc6f40f8a5113f4f1bf41b76
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: check_dashboard
+  - action: utter_dashboard
